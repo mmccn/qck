@@ -8,4 +8,4 @@ We currently do not have a CLI! Check back later
 
 ## Contributing
 
-Make a pull request- to add a new script, make a new script in the scripts directory.
+Make a pull request. To add a new script, make a new script in the scripts directory.
