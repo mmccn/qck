@@ -16,8 +16,10 @@ echo "Installing Node (LTS Release)"
 echo "NOTE: This requires root privileges"
 if [[ ( -n "$DEBUG" ) ||( "$DEBUG" != true) ]]
 then
-	curl -P ~/.qck/python3.9 https://www.python.org/ftp/python/3.9.6/Python-3.9.6.tgz
-	cd ~/.qck/python3.9
+	curl -P ~/.qck/ https://www.python.org/ftp/python/3.9.6/Python-3.9.6.tgz
+	cd ~/.qck/
+	tar xzf Python-3.9.6
+	cd Python-3.9.6
 	./configure
 	make
 	sudo make install
