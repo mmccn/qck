@@ -12,7 +12,7 @@ then
 	fi
 fi
 
-echo "Installing Node (LTS Release)"
+echo "Installing Python 3.9.6"
 echo "NOTE: This requires root privileges"
 if [[ ( -n "$DEBUG" ) ||( "$DEBUG" != true) ]]
 then
